@@ -1,0 +1,36 @@
+// ==== Config ==== //
+
+
+// Define colors
+// ------------------------------------------------
+
+$brand-primary: #008A6C !default;
+$brand-second: #606c76 !default;
+
+
+// Background body and text color
+// ------------------------------------------------
+$body-bg: #fff !default;
+$color-text: #606c76 !default;
+
+
+// Fonts
+// ------------------------------------------------
+// $font-size-base: 1.6em !default;
+$font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !default;
+$headings-font-weight: 300 !default;
+
+
+// Radius
+// ------------------------------------------------
+$border-radius-base: 0.3em !default;
+
+
+// Buttons array generate
+// ------------------------------------------------
+
+// Add or modify buttons array
+$buttons: (
+  second: #606c76,
+  black: black
+);

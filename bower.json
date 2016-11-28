@@ -1,0 +1,15 @@
+{
+  "name": "kenyk7",
+  "homepage": "http://github.com/kenyk7",
+  "authors": [
+    {
+      "name": "Keny Romero",
+      "email": "kenykalin@gmail.com",
+      "homepage": ""
+    }
+  ],
+  "dependencies": {
+    "jquery": "<3 >1.11",
+    "MilligramCore": "^0.1.1"
+  }
+}

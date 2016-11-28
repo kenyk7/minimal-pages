@@ -1,0 +1,37 @@
+/**
+ * Global styles used accross sections
+ */
+
+*{
+	outline: none !important;
+}
+
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: underline;
+}
+
+
+// Ws header home
+// ------------------------------------------------
+.ws{
+	height: 100vh;
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	.container{
+		display: table;
+		height: 100%;
+		.container-content{
+			display: table-cell;
+			vertical-align: middle;
+			position: relative;
+		}
+	}
+	@include minw(xs){
+		height: 100vh !important;
+	}
+}

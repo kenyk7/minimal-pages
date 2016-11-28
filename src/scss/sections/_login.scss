@@ -1,0 +1,25 @@
+.ws-login{
+	background: $brand-primary;
+}
+.login-form{
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3rem;
+	background: #f0f0f0;
+	border-radius: 0.3rem;
+	box-shadow: 0 0.3rem 0.8rem rgba(#000, 0.2);
+	form{
+		margin-bottom: 0;
+	}
+	input{
+		background: #fff;
+	}
+	button{
+		margin-bottom: 0;
+	}
+	@include maxw(sm){
+		max-width: 95%;
+		padding: 2rem;
+	}
+}
