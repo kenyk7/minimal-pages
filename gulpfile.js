@@ -6,7 +6,7 @@ var dist = './assets/';
 
 // only required if useproxy = true
 var proxyUrl = 'local.app.com';
-var localPort = 3005;
+var localPort = 3000;
 
 // my scripts: default load all script of folder js/*
 var scripts = [

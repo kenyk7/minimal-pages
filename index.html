@@ -1,386 +1,410 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Keny Romero">
-    <meta name="description" content="Minimal css frontend framework scalable and extensible based milligram and use grid core.css">
-    <title>Milligram and core.css | A minimalist CSS framework.</title>
-    <link rel="icon" href="https://milligram.github.io/images/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="assets/css/style.css"><!-- to generate this style run `$ npm start` -->
-    <link rel="stylesheet" href="https://milligram.github.io/styles/main.min.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="author" content="Keny Romero">
+  <meta name="description" content="Minimal css frontend framework scalable and extensible based milligram and use grid core.css">
+  <title>Milligram and core.css | A minimalist CSS framework.</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    main section{
+      padding-top: 5rem !important;
+      padding-bottom: 5rem !important;
+    }
+    .example .column-demo{
+      background: #ccc;
+      border-radius: 0.2rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+    }
+    .heading-font-size{
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="container" id="image">
+      <div class="text-center">
+        <img src="https://raw.githubusercontent.com/milligram/milligram.github.io/master/images/thumbnail.jpg" alt="Image">
+          <h1> + <br> Core.css</h1>
+      </div>
+    </section>
 
-    <main class="wrapper">
-
-      <section class="container" id="image">
-        <div class="text-center">
-          <img src="https://raw.githubusercontent.com/milligram/milligram.github.io/master/images/thumbnail.jpg" alt="Image">
-            <h1> + <br> Core.css</h1>
-        </div>
-      </section>
-
-      <section class="container" id="typography">
-        <h5 class="title">Typography</h5>
-        <hr>
-        <div class="example">
-          <div class="row">
-            <div class="col sm-6">
-              <h1>Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 5.0rem (50px)</span></h1>
-              <h2>Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 4.2rem (42px)</span></h2>
-              <h3>Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 3.6rem (36px)</span></h3>
-              <h4>Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 3.0rem (30px)</span></h4>
-              <h5>Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 2.4rem (24px)</span></h5>
-              <h6>Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 1.5rem (15px)</span></h6>
-            </div>
-            <div class="col sm-6">
-              <p>Lorem ipsum dolor sit amet, <u>consectetur adipisicing elit</u>.</p>
-              <p>Obcaecati <s>error</s> a, quas fugit hic, <a href="#">accusantium</a> autem <i>necessitatibus praesentium</i> placeat, iusto et <b>soluta expedita</b>! Quisquam repellendus <small>voluptatem</small>, <mark>tempora iste culpa fuga</mark>, <time>on April 29</time>!</p>
-              <p>Quisquam nobis, ad. Iusto, <strong>repudiandae</strong>. Autem ipsa blanditiis, quae, fugit nobis <em>perspiciatis in beatae vitae</em> numquam illo, architecto hic dolor <q>molestiae aliquid</q>.</p>
-            </div>
+    <section class="container" id="typography">
+      <h5 class="title">Typography</h5>
+      <hr>
+      <div class="example">
+        <div class="row">
+          <div class="col sm-6">
+            <h1>Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 5.0rem (50px)</span></h1>
+            <h2>Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 4.2rem (42px)</span></h2>
+            <h3>Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 3.6rem (36px)</span></h3>
+            <h4>Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 3.0rem (30px)</span></h4>
+            <h5>Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 2.4rem (24px)</span></h5>
+            <h6>Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 1.5rem (15px)</span></h6>
+          </div>
+          <div class="col sm-6">
+            <p>Lorem ipsum dolor sit amet, <u>consectetur adipisicing elit</u>.</p>
+            <p>Obcaecati <s>error</s> a, quas fugit hic, <a href="#">accusantium</a> autem <i>necessitatibus praesentium</i> placeat, iusto et <b>soluta expedita</b>! Quisquam repellendus <small>voluptatem</small>, <mark>tempora iste culpa fuga</mark>, <time>on April 29</time>!</p>
+            <p>Quisquam nobis, ad. Iusto, <strong>repudiandae</strong>. Autem ipsa blanditiis, quae, fugit nobis <em>perspiciatis in beatae vitae</em> numquam illo, architecto hic dolor <q>molestiae aliquid</q>.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="container" id="blockquotes">
-        <h5 class="title">Blockquotes</h5>
-        <hr>
-        <div class="example">
-          <div class="row">
-            <div class="col sm-6">
-              <p><q>Yeah!! Milligram is amazing.</q></p>
-            </div>
-            <div class="col sm-6">
-              <blockquote>
-                <p><em>Yeah!! Milligram is amazing.</em></p>
-              </blockquote>
-            </div>
+    <section class="container" id="blockquotes">
+      <h5 class="title">Blockquotes</h5>
+      <hr>
+      <div class="example">
+        <div class="row">
+          <div class="col sm-6">
+            <p><q>Yeah!! Milligram is amazing.</q></p>
+          </div>
+          <div class="col sm-6">
+            <blockquote>
+              <p><em>Yeah!! Milligram is amazing.</em></p>
+            </blockquote>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="container" id="buttons">
-        <h5 class="title">Buttons</h5>
-        <hr>
-        <div class="example text-center">
-          <div class="row">
-            <div class="col md-4">
-              <a class="btn" href="javascript: void(0)">Default Button</a>
-              <a class="btn btn-outline" href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear" href="javascript: void(0)">Clear Button</a>
-              <a class="btn" disabled href="javascript: void(0)">Default Button</a>
-              <a class="btn btn-outline" disabled href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear" disabled href="javascript: void(0)">Clear Button</a>
-            </div>
-            <div class="col md-4">
-              <button class="btn">Default Button</button>
-              <button class="btn btn-outline">Outlined Button</button>
-              <button class="btn btn-clear">Clear Button</button>
-              <button class="btn" disabled>Default Button</button>
-              <button class="btn btn-outline" disabled>Outlined Button</button>
-              <button class="btn btn-clear" disabled>Clear Button</button>
-            </div>
-            <div class="col md-4">
-              <input class="btn" type="submit" value="Default Button">
-              <input class="btn btn-outline" type="submit" value="Outlined Button">
-              <input class="btn btn-clear" type="submit" value="Clear Button">
-              <input class="btn" disabled type="submit" value="Default Button">
-              <input class="btn btn-outline" disabled type="submit" value="Outlined Button">
-              <input class="btn btn-clear" disabled type="submit" value="Clear Button">
-            </div>
+    <section class="container" id="buttons">
+      <h5 class="title">Buttons</h5>
+      <hr>
+      <div class="example text-center">
+        <div class="row">
+          <div class="col md-4">
+            <a class="btn" href="javascript: void(0)">Default Button</a>
+            <a class="btn btn-outline" href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear" href="javascript: void(0)">Clear Button</a>
+            <a class="btn" disabled href="javascript: void(0)">Default Button</a>
+            <a class="btn btn-outline" disabled href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear" disabled href="javascript: void(0)">Clear Button</a>
           </div>
-          <div class="row">
-            <div class="col md-4">
-              <input class="btn" type="reset" value="Default Button">
-              <input class="btn btn-outline" type="reset" value="Outlined Button">
-              <input class="btn btn-clear" type="reset" value="Clear Button">
-              <input class="btn" disabled type="reset" value="Default Button">
-              <input class="btn btn-outline" disabled type="reset" value="Outlined Button">
-              <input class="btn btn-clear" disabled type="reset" value="Clear Button">
-            </div>
-            <div class="col md-4">
-              <input class="btn" type="button" value="Default Button">
-              <input class="btn btn-outline" type="button" value="Outlined Button">
-              <input class="btn btn-clear" type="button" value="Clear Button">
-              <input class="btn" disabled type="button" value="Default Button">
-              <input class="btn btn-outline" disabled type="button" value="Outlined Button">
-              <input class="btn btn-clear" disabled type="button" value="Clear Button">
-            </div>
-            <div class="col md-4">
-              <div class="btn">Default Button</div>
-              <div class="btn btn-outline">Outlined Button</div>
-              <div class="btn btn-clear">Clear Button</div>
-              <div class="btn" disabled>Default Button</div>
-              <div class="btn btn-outline" disabled>Outlined Button</div>
-              <div class="btn btn-clear" disabled>Clear Button</div>
-            </div>
+          <div class="col md-4">
+            <button class="btn">Default Button</button>
+            <button class="btn btn-outline">Outlined Button</button>
+            <button class="btn btn-clear">Clear Button</button>
+            <button class="btn" disabled>Default Button</button>
+            <button class="btn btn-outline" disabled>Outlined Button</button>
+            <button class="btn btn-clear" disabled>Clear Button</button>
           </div>
-          <div class="row">
-            <div class="col xs-6">
-              <a class="btn btn-second btn-block btn-round" href="javascript: void(0)">Extend Button</a>
-              <a class="btn btn-outline btn-second btn-block btn-round" href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear btn-second btn-block" href="javascript: void(0)">Clear Button</a>
-              <a class="btn btn-second btn-block" disabled href="javascript: void(0)">Extend Button</a>
-              <a class="btn btn-outline btn-second btn-block" disabled href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear btn-second btn-block" disabled href="javascript: void(0)">Clear Button</a>
-            </div>
-            <div class="col xs-6">
-              <button class="btn btn-second btn-block">Extend Button</button>
-              <button class="btn btn-outline btn-second btn-block">Outlined Button</button>
-              <button class="btn btn-clear btn-second btn-block">Clear Button</button>
-              <button class="btn btn-second btn-block" disabled>Extend Button</button>
-              <button class="btn btn-outline btn-second btn-block" disabled>Outlined Button</button>
-              <button class="btn btn-clear btn-second btn-block" disabled>Clear Button</button>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col xs-6">
-              <a class="btn btn-black btn-block btn-round" href="javascript: void(0)">Extend Button</a>
-              <a class="btn btn-outline btn-black btn-block btn-round" href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear btn-black btn-block" href="javascript: void(0)">Clear Button</a>
-              <a class="btn btn-black btn-block" disabled href="javascript: void(0)">Extend Button</a>
-              <a class="btn btn-outline btn-black btn-block" disabled href="javascript: void(0)">Outlined Button</a>
-              <a class="btn btn-clear btn-black btn-block" disabled href="javascript: void(0)">Clear Button</a>
-            </div>
-            <div class="col xs-6">
-              <button class="btn btn-black btn-block">Extend Button</button>
-              <button class="btn btn-outline btn-black btn-block">Outlined Button</button>
-              <button class="btn btn-clear btn-black btn-block">Clear Button</button>
-              <button class="btn btn-black btn-block" disabled>Extend Button</button>
-              <button class="btn btn-outline btn-black btn-block" disabled>Outlined Button</button>
-              <button class="btn btn-clear btn-black btn-block" disabled>Clear Button</button>
-            </div>
+          <div class="col md-4">
+            <input class="btn" type="submit" value="Default Button">
+            <input class="btn btn-outline" type="submit" value="Outlined Button">
+            <input class="btn btn-clear" type="submit" value="Clear Button">
+            <input class="btn" disabled type="submit" value="Default Button">
+            <input class="btn btn-outline" disabled type="submit" value="Outlined Button">
+            <input class="btn btn-clear" disabled type="submit" value="Clear Button">
           </div>
         </div>
-      </section>
-
-      <section class="container" id="lists">
-        <h5 class="title">Lists</h5>
-        <hr>
-        <div class="example">
-          <div class="row">
-            <div class="col md-4">
-              <ul>
-                <li>Unordered list item 1</li>
-                <li>Unordered list item 2</li>
-                <li>Unordered list item 3
-                  <ul>
-                    <li>Unordered list item 3.1</li>
-                    <li>Unordered list item 3.2</li>
-                    <li>Unordered list item 3.3</li>
-                  </ul>
-                </li>
-                <li>Unordered list item 4</li>
-                <li>Unordered list item 5</li>
-              </ul>
-            </div>
-            <div class="col md-4">
-              <ol>
-                <li>Ordered list item 1</li>
-                <li>Ordered list item 2</li>
-                <li>Ordered list item 3
-                  <ol>
-                    <li>Ordered list item 3.1</li>
-                    <li>Ordered list item 3.2</li>
-                    <li>Ordered list item 3.3</li>
-                  </ol>
-                </li>
-                <li>Ordered list item 4</li>
-                <li>Ordered list item 5</li>
-              </ol>
-            </div>
-            <div class="col md-4">
-              <dl>
-                <dt>Description list item 1</dt>
-                <dt>Description list item 2</dt>
-                <dt>Description list item 3</dt>
-                <dd>Description list item 3.1</dd>
-                <dd>Description list item 3.2</dd>
-                <dd>Description list item 3.3</dd>
-                <dt>Description list item 4</dt>
-                <dt>Description list item 5</dt>
-              </dl>
-            </div>
+        <div class="row">
+          <div class="col md-4">
+            <input class="btn" type="reset" value="Default Button">
+            <input class="btn btn-outline" type="reset" value="Outlined Button">
+            <input class="btn btn-clear" type="reset" value="Clear Button">
+            <input class="btn" disabled type="reset" value="Default Button">
+            <input class="btn btn-outline" disabled type="reset" value="Outlined Button">
+            <input class="btn btn-clear" disabled type="reset" value="Clear Button">
+          </div>
+          <div class="col md-4">
+            <input class="btn" type="button" value="Default Button">
+            <input class="btn btn-outline" type="button" value="Outlined Button">
+            <input class="btn btn-clear" type="button" value="Clear Button">
+            <input class="btn" disabled type="button" value="Default Button">
+            <input class="btn btn-outline" disabled type="button" value="Outlined Button">
+            <input class="btn btn-clear" disabled type="button" value="Clear Button">
+          </div>
+          <div class="col md-4">
+            <div class="btn">Default Button</div>
+            <div class="btn btn-outline">Outlined Button</div>
+            <div class="btn btn-clear">Clear Button</div>
+            <div class="btn" disabled>Default Button</div>
+            <div class="btn btn-outline" disabled>Outlined Button</div>
+            <div class="btn btn-clear" disabled>Clear Button</div>
           </div>
         </div>
-      </section>
+        <div class="row">
+          <div class="col xs-6">
+            <a class="btn btn-second btn-block btn-round" href="javascript: void(0)">Extend Button</a>
+            <a class="btn btn-outline btn-second btn-block btn-round" href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear btn-second btn-block" href="javascript: void(0)">Clear Button</a>
+            <a class="btn btn-second btn-block" disabled href="javascript: void(0)">Extend Button</a>
+            <a class="btn btn-outline btn-second btn-block" disabled href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear btn-second btn-block" disabled href="javascript: void(0)">Clear Button</a>
+          </div>
+          <div class="col xs-6">
+            <button class="btn btn-second btn-block">Extend Button</button>
+            <button class="btn btn-outline btn-second btn-block">Outlined Button</button>
+            <button class="btn btn-clear btn-second btn-block">Clear Button</button>
+            <button class="btn btn-second btn-block" disabled>Extend Button</button>
+            <button class="btn btn-outline btn-second btn-block" disabled>Outlined Button</button>
+            <button class="btn btn-clear btn-second btn-block" disabled>Clear Button</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col xs-6">
+            <a class="btn btn-black btn-block btn-round" href="javascript: void(0)">Extend Button</a>
+            <a class="btn btn-outline btn-black btn-block btn-round" href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear btn-black btn-block" href="javascript: void(0)">Clear Button</a>
+            <a class="btn btn-black btn-block" disabled href="javascript: void(0)">Extend Button</a>
+            <a class="btn btn-outline btn-black btn-block" disabled href="javascript: void(0)">Outlined Button</a>
+            <a class="btn btn-clear btn-black btn-block" disabled href="javascript: void(0)">Clear Button</a>
+          </div>
+          <div class="col xs-6">
+            <button class="btn btn-black btn-block">Extend Button</button>
+            <button class="btn btn-outline btn-black btn-block">Outlined Button</button>
+            <button class="btn btn-clear btn-black btn-block">Clear Button</button>
+            <button class="btn btn-black btn-block" disabled>Extend Button</button>
+            <button class="btn btn-outline btn-black btn-block" disabled>Outlined Button</button>
+            <button class="btn btn-clear btn-black btn-block" disabled>Clear Button</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section class="container" id="forms">
-        <h5 class="title">Forms</h5>
-        <hr>
-        <div class="example">
-        <form>
-            <fieldset>
-              <legend>Legend</legend>
-              <div class="row">
-                <div class="col sm-6">
-                  <label for="textField">Text field</label>
-                  <input type="text" placeholder="Text field" id="textField">
-                  <label for="emailField">Email field</label>
-                  <input type="email" id="emailField" placeholder="Email field">
-                  <label for="numberField">Number field</label>
-                  <input type="number" id="numberField" placeholder="Number field">
-                  <label for="passwordField">Password field</label>
-                  <input type="password" id="passwordField" placeholder="Password field">
-                  <label for="selectField">Select field</label>
-                  <select id="selectField">
-                    <option value="selectField1">Select field 1</option>
-                    <option value="selectField2">Select field 2</option>
-                    <option value="selectField3">Select field 3</option>
-                    <option value="selectField4">Select field 4</option>
-                  </select>
-                  <label for="searchField">Search field</label>
-                  <input type="search" id="searchField" placeholder="Search field">
-                </div>
-                <div class="col sm-6">
-                  <label for="telField">Tel field</label>
-                  <input type="tel" id="telField" placeholder="Tel field">
-                  <label for="urlField">URL field</label>
-                  <input type="url" id="urlField" placeholder="URL field">
-                  <label for="radioField">Radio field</label>
-                  <div class="row">
-                    <div class="col sm-6">
-                      <input type="radio" id="radioField1" name="radioField">
-                      <label class="label-inline" for="radioField1">Radio field 1</label>
-                    </div>
-                    <div class="col sm-6">
-                      <input type="radio" id="radioField2" name="radioField">
-                      <label class="label-inline" for="radioField2">Radio field 2</label>
-                    </div>
-                  </div>
-                  <label for="radioField">Checkbox field</label>
-                  <div class="row">
-                    <div class="col sm-6">
-                      <input type="checkbox" id="checkboxField1">
-                      <label class="label-inline" for="checkboxField1">Checkbox field 1</label>
-                    </div>
-                    <div class="col sm-6">
-                      <input type="checkbox" id="checkboxField2">
-                      <label class="label-inline" for="checkboxField2">Checkbox field 2</label>
-                    </div>
-                  </div>
-                  <label for="textareaField">Textarea field</label>
-                  <textarea placeholder="Textarea field" id="textareaField"></textarea>
-                  <input type="submit" class="btn">
-                  <input type="reset" class="btn btn-clear">
-                </div>
+    <section class="container" id="lists">
+      <h5 class="title">Lists</h5>
+      <hr>
+      <div class="example">
+        <div class="row">
+          <div class="col md-4">
+            <ul>
+              <li>Unordered list item 1</li>
+              <li>Unordered list item 2</li>
+              <li>Unordered list item 3
+                <ul>
+                  <li>Unordered list item 3.1</li>
+                  <li>Unordered list item 3.2</li>
+                  <li>Unordered list item 3.3</li>
+                </ul>
+              </li>
+              <li>Unordered list item 4</li>
+              <li>Unordered list item 5</li>
+            </ul>
+          </div>
+          <div class="col md-4">
+            <ol>
+              <li>Ordered list item 1</li>
+              <li>Ordered list item 2</li>
+              <li>Ordered list item 3
+                <ol>
+                  <li>Ordered list item 3.1</li>
+                  <li>Ordered list item 3.2</li>
+                  <li>Ordered list item 3.3</li>
+                </ol>
+              </li>
+              <li>Ordered list item 4</li>
+              <li>Ordered list item 5</li>
+            </ol>
+          </div>
+          <div class="col md-4">
+            <dl>
+              <dt>Description list item 1</dt>
+              <dt>Description list item 2</dt>
+              <dt>Description list item 3</dt>
+              <dd>Description list item 3.1</dd>
+              <dd>Description list item 3.2</dd>
+              <dd>Description list item 3.3</dd>
+              <dt>Description list item 4</dt>
+              <dt>Description list item 5</dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="forms">
+      <h5 class="title">Forms</h5>
+      <hr>
+      <div class="example">
+      <form>
+          <fieldset>
+            <legend>Legend</legend>
+            <div class="row">
+              <div class="col sm-6">
+                <label for="textField">Text field</label>
+                <input type="text" placeholder="Text field" id="textField">
+                <label for="emailField">Email field</label>
+                <input type="email" id="emailField" placeholder="Email field">
+                <label for="numberField">Number field</label>
+                <input type="number" id="numberField" placeholder="Number field">
+                <label for="passwordField">Password field</label>
+                <input type="password" id="passwordField" placeholder="Password field">
+                <label for="selectField">Select field</label>
+                <select id="selectField">
+                  <option value="selectField1">Select field 1</option>
+                  <option value="selectField2">Select field 2</option>
+                  <option value="selectField3">Select field 3</option>
+                  <option value="selectField4">Select field 4</option>
+                </select>
+                <label for="searchField">Search field</label>
+                <input type="search" id="searchField" placeholder="Search field">
               </div>
-            </fieldset>
-          </form>
+              <div class="col sm-6">
+                <label for="telField">Tel field</label>
+                <input type="tel" id="telField" placeholder="Tel field">
+                <label for="urlField">URL field</label>
+                <input type="url" id="urlField" placeholder="URL field">
+                <label for="radioField">Radio field</label>
+                <div class="row">
+                  <div class="col sm-6">
+                    <input type="radio" id="radioField1" name="radioField">
+                    <label class="label-inline" for="radioField1">Radio field 1</label>
+                  </div>
+                  <div class="col sm-6">
+                    <input type="radio" id="radioField2" name="radioField">
+                    <label class="label-inline" for="radioField2">Radio field 2</label>
+                  </div>
+                </div>
+                <label for="radioField">Checkbox field</label>
+                <div class="row">
+                  <div class="col sm-6">
+                    <input type="checkbox" id="checkboxField1">
+                    <label class="label-inline" for="checkboxField1">Checkbox field 1</label>
+                  </div>
+                  <div class="col sm-6">
+                    <input type="checkbox" id="checkboxField2">
+                    <label class="label-inline" for="checkboxField2">Checkbox field 2</label>
+                  </div>
+                </div>
+                <label for="textareaField">Textarea field</label>
+                <textarea placeholder="Textarea field" id="textareaField"></textarea>
+                <input type="submit" class="btn">
+                <input type="reset" class="btn btn-clear">
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="container" id="tables">
+      <h5 class="title">Tables</h5>
+      <hr>
+      <div class="example table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Height</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kevin Durant</td>
+              <td>27</td>
+              <td>2.06</td>
+              <td> Washington, DC</td>
+            </tr>
+            <tr>
+              <td>Stephen Curry</td>
+              <td>27</td>
+              <td>1,91</td>
+              <td>Akron, OH</td>
+            </tr>
+            <tr>
+              <td>Klay Thompson</td>
+              <td>25</td>
+              <td>2,01</td>
+              <td>Los Angeles, CA</td>
+            </tr>
+            <tr>
+              <td>Draymond Green</td>
+              <td>26</td>
+              <td>2,01</td>
+              <td>Saginaw, MI</td>
+            </tr>
+            <tr>
+              <td>Andre Iguodala</td>
+              <td>32</td>
+              <td>1,98</td>
+              <td>Springfield, IL</td>
+            </tr>
+            <tr>
+              <td>Anderson Varejão</td>
+              <td>33</td>
+              <td>2,08</td>
+              <td>Colatina, ES</td>
+            </tr>
+            <tr>
+              <td>Shaun Livingston</td>
+              <td>30</td>
+              <td>2,01</td>
+              <td>Peoria, CA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="container" id="grids">
+      <h5 class="title">Grids core</h5>
+      <hr>
+      <div class="row example">
+        <div class="col xs-6 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-6 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+        <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
+      </div>
+    </section>
+
+    <section class="container" id="codes">
+      <h5 class="title">Codes</h5>
+      <hr>
+      <div class="example">
+<pre>
+<code>.milligram {
+  color: #9b4dca;
+}</code></pre>
+      </div>
+    </section>
+
+    <section class="container" id="utilities">
+      <h5 class="title">Utilities</h5>
+      <hr>
+      <div class="example">
+        <div class="clearfix">
+          <img class="float-left" src="http://placehold.it/320/d1d1d1/?text=float+to+left" alt="float to left">
+          <img class="float-right" src="http://placehold.it/320/d1d1d1/?text=float+to+right" alt="float to right">
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="container" id="tables">
-        <h5 class="title">Tables</h5>
-        <hr>
-        <div class="example table-responsive">
-          <table class="table-xs">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Height</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Kevin Durant</td>
-                <td>27</td>
-                <td>2.06</td>
-                <td> Washington, DC</td>
-              </tr>
-              <tr>
-                <td>Stephen Curry</td>
-                <td>27</td>
-                <td>1,91</td>
-                <td>Akron, OH</td>
-              </tr>
-              <tr>
-                <td>Klay Thompson</td>
-                <td>25</td>
-                <td>2,01</td>
-                <td>Los Angeles, CA</td>
-              </tr>
-              <tr>
-                <td>Draymond Green</td>
-                <td>26</td>
-                <td>2,01</td>
-                <td>Saginaw, MI</td>
-              </tr>
-              <tr>
-                <td>Andre Iguodala</td>
-                <td>32</td>
-                <td>1,98</td>
-                <td>Springfield, IL</td>
-              </tr>
-              <tr>
-                <td>Anderson Varejão</td>
-                <td>33</td>
-                <td>2,08</td>
-                <td>Colatina, ES</td>
-              </tr>
-              <tr>
-                <td>Shaun Livingston</td>
-                <td>30</td>
-                <td>2,01</td>
-                <td>Peoria, CA</td>
-              </tr>
-            </tbody>
-          </table>
+    <section class="container" id="utilities">
+      <h5 class="title">Responsive embeds</h5>
+      <hr>
+      <div class="example">
+        <p>Default fluid embed is 16by9 or add class <code>e43</code> in embed-fluid</p>
+        <div class="embed-fluid">
+          <iframe src="//www.youtube.com/embed/ktvTqknDobU?rel=0" allowfullscreen></iframe>
         </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <section class="container">
+        <p>Designed with ♥ by <a target="blank" href="http://github.com/kenyk7" title="Keny Romero">Keny Romero</a>. Licensed under the MIT License.</p>
       </section>
+    </footer>
 
+  </main>
 
-      <section class="container" id="grids">
-        <h5 class="title">Grids core</h5>
-        <hr>
-        <div class="row example">
-          <div class="col xs-6 sm-6 md-4 lg-3 xl-2"><span class="column-demo">Col</span></div>
-          <div class="col xs-6 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-          <div class="col xs-12 sm-6 md-4 lg-3 xl-2"><div class="column-demo">Col</div></div>
-        </div>
-      </section>
-
-      <section class="container" id="codes">
-        <h5 class="title">Codes</h5>
-        <hr>
-        <div class="example">
-          <pre><code>.milligram {
-            color: #9b4dca;
-          }</code></pre>
-        </div>
-      </section>
-
-      <section class="container" id="utilities">
-        <h5 class="title">Utilities</h5>
-        <hr>
-        <div class="example">
-          <div class="clearfix">
-            <img class="float-left" src="http://placehold.it/320/d1d1d1/?text=float+to+left" alt="float to left">
-            <img class="float-right" src="http://placehold.it/320/d1d1d1/?text=float+to+right" alt="float to right">
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <section class="container">
-          <p>Designed with ♥ by <a target="blank" href="http://github.com/kenyk7" title="Keny Romero">Keny Romero</a>. Licensed under the MIT License.</p>
-        </section>
-      </footer>
-
-    </main>
-
-  </body>
+</body>
 </html>

@@ -1,11 +1,11 @@
 // ==== STYLES ==== //
 
 // Configuration variables and settings
-@import "_variables";
+@import "config";
 
 
 // Load bootstrap-sass
-@import "bower_components/MilligramCore/src/scss/milligram-core.scss";
+@import "bower_components/MilligramCore/src/scss/milligram-core";
 
 
 // load plugins
@@ -13,5 +13,5 @@
 // end load plugins
 
 // Local styles
-@import "base/_general";
-@import "sections/_general";
+@import "base/general";
+@import "sections/general";
