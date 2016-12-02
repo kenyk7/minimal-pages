@@ -16,7 +16,7 @@ Pasos a seguir para utilizar el automatizador de tareas **Gulp**
 ```sh
 $ npm install -g yarn gulp bower browser-sync
 ```
-  - Una vez instalados los paquetes globales, vamos a la carpeta donde trabajaremos e iniciamos la instalación de los paquetes locales de desarrollo 
+  - Una vez instalados los paquetes globales iniciamos la instalación de los paquetes locales de desarrollo 
 
 ```sh
 $ yarn install
