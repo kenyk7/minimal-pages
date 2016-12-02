@@ -29,7 +29,7 @@ body{
 }
 .section-pricing{
 	background: $celeste;
-	padding: 35px 0;
+	padding: 55px 0;
 	blockquote{
 		width: 95%;
 		background: #fff;
@@ -39,7 +39,20 @@ body{
 		-webkit-border-radius: 2px;
 		-moz-border-radius: 2px;
 		border-radius: 2px;
-		&:hover .cont-price{ 
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		-ms-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
+		-moz-box-shadow:    0 0 0 0 rgba(#000, .1);
+		-webkit-box-shadow: 0 0 0 0 rgba(#000, .1);
+		box-shadow:         0 0 0 0 rgba(#000, .1);
+		&:hover{
+			-moz-box-shadow:    0 8px 15px 0 rgba(#000, .1);
+			-webkit-box-shadow: 0 8px 15px 0 rgba(#000, .1);
+			box-shadow:         0 8px 15px 0 rgba(#000, .1);
+		}
+		&.active .cont-price{ 
 			background: $cyan;
 			h1{ 
 				color: rgba(#fff, .5); 
