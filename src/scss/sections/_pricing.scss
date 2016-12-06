@@ -7,7 +7,7 @@ $negro: #888;
 body{
 	margin: 0;
 }
-.cont-center{
+.content-center{
 	display: table-cell; 
 	vertical-align: middle;
 }
@@ -30,7 +30,7 @@ body{
 .section-pricing{
 	background: $celeste;
 	padding: 55px 0;
-	blockquote{
+	.card{
 		width: 95%;
 		background: #fff;
 		border: 0;
@@ -52,7 +52,7 @@ body{
 			-webkit-box-shadow: 0 8px 15px 0 rgba(#000, .1);
 			box-shadow:         0 8px 15px 0 rgba(#000, .1);
 		}
-		&.active .cont-price{ 
+		&.active .card-price{ 
 			background: $cyan;
 			h1{ 
 				color: rgba(#fff, .5); 
@@ -63,7 +63,7 @@ body{
 			}
 			p{ color: rgba(#fff, .5); }
 		}
-		.cont-price{
+		.card-price{
 			text-align: center;
 			padding: 15px;
 			border-bottom: solid 5px #f4f4f4;
@@ -112,7 +112,7 @@ body{
 				font-size: 13px;
 			}
 		}
-		.cont-desciption{
+		.card-desciption{
 			text-align: center;
 			padding: 15px 0;
 			ul{
